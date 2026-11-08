@@ -1,0 +1,23 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap');
+:root { --sand:#D8C3A5; --sand-dark:#9B8061; --snow:#FAFAF7; --ink:#292821; --muted:#716D64; }
+html, body, [class*="css"] { font-family:'DM Sans',sans-serif; color:var(--ink); }
+.stApp { background:linear-gradient(135deg,#FAFAF7 0%,#F5F0E8 58%,#E9DDCC 100%); }
+h1,h2,h3 { font-family:'Manrope',sans-serif !important; letter-spacing:-.03em; }
+[data-testid="stSidebar"] { background:linear-gradient(180deg,#E8DCCB,#F8F7F2); border-right:1px solid #D6C7B4; }
+[data-testid="stSidebar"] * { color:#3C352C; }
+.hero { padding:2.2rem 2.3rem; border:1px solid #D9CBB8; border-radius:24px; background:linear-gradient(115deg,rgba(255,255,255,.94),rgba(231,218,199,.88)); box-shadow:0 16px 42px rgba(70,55,35,.08); animation:fadeUp .7s ease both; }
+.eyebrow { text-transform:uppercase; letter-spacing:.16em; font-size:.75rem; font-weight:700; color:#8A7357; }
+.hero h1 { font-size:clamp(2.2rem,5vw,4rem); line-height:1.04; margin:.55rem 0; color:#292821; }
+.hero p { color:#716D64; font-size:1.08rem; max-width:780px; }
+.section-card { background:rgba(255,255,255,.76); border:1px solid #DED3C4; border-radius:18px; padding:1.15rem 1.25rem; min-height:142px; box-shadow:0 8px 24px rgba(70,55,35,.045); transition:transform .22s ease, box-shadow .22s ease; animation:fadeUp .55s ease both; }
+.section-card:hover { transform:translateY(-5px); box-shadow:0 15px 32px rgba(70,55,35,.12); }
+.section-card .emoji { font-size:1.65rem; }
+.section-card h3 { margin:.55rem 0 .2rem; font-size:1.05rem; }
+.section-card p { margin:0; color:#716D64; font-size:.88rem; }
+.info-note { border-left:4px solid #B69A76; padding:.8rem 1rem; background:#F1EADF; border-radius:0 12px 12px 0; color:#514638; }
+@keyframes fadeUp { from {opacity:0; transform:translateY(12px)} to {opacity:1; transform:translateY(0)} }
+div.stButton > button { border-radius:12px; border:1px solid #BBA486; background:#E6D7C3; color:#342C22; font-weight:700; }
+div.stButton > button:hover { border-color:#8E7555; background:#D9C4A7; color:#241F18; }
+</style>
