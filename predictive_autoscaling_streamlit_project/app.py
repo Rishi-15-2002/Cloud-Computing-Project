@@ -27,7 +27,7 @@ with st.sidebar:
     
     st.markdown("**PROJECT NAVIGATION**")
     # Using empty string "" points securely to the main entry point on Streamlit Cloud
-    st.page_link("", label="Home", icon="🏠")
+    st.page_link("app.py", label="Home", icon="🏠")
     st.page_link("pages/1_Project_Introduction.py", label="Project Introduction", icon="🎓")
     st.page_link("pages/2_Dataset.py", label="Dataset", icon="🗃️")
     st.page_link("pages/3_ML_Forecasting.py", label="ML Forecasting", icon="🧠")
