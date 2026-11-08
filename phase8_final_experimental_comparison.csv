@@ -1,0 +1,13 @@
+Metric,Reactive,Predictive,Difference (Predictive - Reactive)
+Average active VMs,98.987,100.0,1.0130000000000052
+Maximum active VMs,100.0,100.0,0.0
+Average CPU utilization (%),110.29,97.38,-12.91000000000001
+Average memory utilization (%),59.65,53.89,-5.759999999999998
+CPU overload intervals,633.0,627.0,-6.0
+Memory overload intervals,88.0,86.0,-2.0
+Scale-up events,18.0,1.0,-17.0
+Scale-down events,8.0,0.0,-8.0
+Total energy (kWh),2873.931,2895.177,21.246000000000095
+Electricity cost (INR),22991.446,23161.417,169.97100000000137
+VM operating cost (INR),53452.917,54000.0,547.0829999999987
+Total estimated cost (INR),76444.363,77161.417,717.0540000000037

@@ -1,0 +1,3 @@
+Policy,Average Active VMs,Maximum Active VMs,Average CPU Utilization (%),Average Memory Utilization (%),CPU Overload Intervals,Memory Overload Intervals,Scale Up Events,Scale Down Events,Average Unused CPU (MHz),Average Unused Memory (KB)
+Reactive,98.98688271604938,100,110.29048580275726,59.64990449854578,633,88,18,8,14275.276722770448,505744165.0202653
+Predictive,100.0,100,97.382589075052,53.888213311766485,627,86,1,0,23290.166024472914,517105434.911535

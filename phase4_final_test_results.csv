@@ -1,0 +1,3 @@
+Target,Selected Model,Test MAE,Test RMSE,Test R2
+target_cpu_usage_mhz,Random Forest,108103.28362887102,169509.56869900576,0.8434321860272017
+target_memory_usage_kb,Linear Regression,60803115.14750548,128931834.94358562,0.8548784220465578
