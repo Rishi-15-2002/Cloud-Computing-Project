@@ -1,0 +1,3 @@
+Policy,Energy_kWh,Estimated_Cost_INR,Average_Active_VMs,Energy_Difference_Percent,Cost_Difference_Percent
+Reactive,2873.931,76444.363,98.987,0.0,0.0
+Predictive,2895.177,77161.417,100.0,0.7392661827997992,0.9380076854064489
